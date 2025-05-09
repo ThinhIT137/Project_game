@@ -11,7 +11,7 @@ public class gameOver extends JPanel {
 
 	private imageButtonData img = new imageButtonData();
 
-	public gameOver(Runnable revive, Runnable onStart, Runnable onQuit) throws IOException {
+	public gameOver(Runnable onStart, Runnable onQuit) throws IOException {
 		setOpaque(false);
 		setLayout(null);
 		setSize(1344, 768);
