@@ -66,12 +66,6 @@ public class GamePanel extends JPanel {
 		sprite.setPaused(false);
 	}
 
-	private void revive() {
-		gameOverOverlay.setVisible(false); // ẩn overlay
-		sprite.setPaused(false); // tiếp tục game
-		sprite.requestFocus();
-	}
-
 	public JLayeredPane getLayered() {
 		return layered;
 	}
