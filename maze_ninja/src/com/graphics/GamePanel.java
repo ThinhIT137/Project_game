@@ -37,7 +37,7 @@ public class GamePanel extends JPanel {
 		layered.add(gameWinOverlay, JLayeredPane.PALETTE_LAYER);
 
 		// over game
-		gameOverOverlay = new gameOver(() -> revive(), onStart, onQuitToMenu);
+		gameOverOverlay = new gameOver(onStart, onQuitToMenu);
 		gameOverOverlay.setBounds(0, 0, 1344, 768);
 		gameOverOverlay.setVisible(false);
 		layered.add(gameOverOverlay, JLayeredPane.PALETTE_LAYER);
